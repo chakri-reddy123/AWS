@@ -38,8 +38,8 @@ Parameters:
     Description: "Only emails within capgroup.com "
     Default : "email-address@capgroup.com"
     Type: String
-    AllowedPattern: "^[a-z][-_.,a-z0-9]*@c{1}a{1}p{1}g{1}r{1}o{1}u{1}p{1}.c{1}o{1}m{1}$"
-    ConstraintDescription: "Must provide a valid capgroup email address"
+    AllowedPattern: "^[a-z][-_.,a-z0-9]*@g{1}m{1}a{1}i{1}l{1}.c{1}o{1}m{1}$"
+    ConstraintDescription: "Must provide a valid gmail email address"
   BudgetLimit:
     Description: "Upto 5 digit number"
     Type: String
